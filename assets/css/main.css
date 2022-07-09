@@ -720,6 +720,34 @@ input, select, textarea {
 
 		}
 
+		/* Three image containers (use 25% for four, and 50% for two, etc) */
+		.column {
+			float: left;
+			width: 33.33%;
+			padding: 5px;
+		}
+		
+		/* Clear floats after image containers */
+		.row::after {
+			content: "";
+			clear: both;
+			display: table;
+		}
+		
+		/* Wrapper so images are the same size */
+		.wrapper {
+			display: flex;
+			flex-direction: row;
+			width: 100%;
+		  }
+		  .wrapper > div:first-child {
+			margin-right: 0px;
+		  }
+		  .wrapper img {
+			display: block;
+			max-width: 100%;
+		  }
+
 /* List */
 
 	ol {
