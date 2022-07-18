@@ -215,7 +215,8 @@ input, select, textarea {
 	}
 
 	h4 {
-		font-size: 0.8rem;
+		font-size: 0.95rem;
+		margin-bottom:-20px;
 	}
 
 	h5 {
@@ -1001,6 +1002,8 @@ input, select, textarea {
 
 		table.alt {
 			border-collapse: separate;
+			width: 40%;
+			text-align: center;
 		}
 
 			table.alt tbody tr td {
